@@ -69,7 +69,7 @@ Analyzed through:
 - **Web browser**
 
 ## References
-- [Cell - Pneumonia Detection](https://www.cell.com/cell/fulltext/S0092-8674(18)30154-5secsectitle0150)
+- [Cell - Pneumonia Detection](https://www.cell.com/cell/fulltext/S0092-8674(18)30154-5##secsectitle0150)
 - [Springer - Image-Based Deep Learning](https://link.springer.com/chapter/10.1007/978-3-319-10590-153)
 - [IJMTST - Vol.7, Issue 01](https://www.ijmtst.com/vol7issue01.html)
 
