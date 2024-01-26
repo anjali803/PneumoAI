@@ -122,4 +122,4 @@ Analyzed through:
 This project signifies a fusion of cutting-edge technology and healthcare needs, offering the potential to save lives. The successful completion underscores the transformative power of machine learning and medical imaging in healthcare, opening doors to further advancements and applications in the future.
 
 ## Hosted Link
-<a>PneumoAI</a>
+<a href="https://pneumo-ai-uhtt.vercel.app/">PneumoAI</a>
