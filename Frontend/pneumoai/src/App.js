@@ -1,10 +1,16 @@
 
 import './App.css';
+import imgSrc from './img/img.png';
+
 
 function App() {
   return (
     <div className="App">
-      <h2>pneumoAI</h2>
+      <div className='heading'>
+        <h1>PneumoAI</h1>
+      </div>
+      <button>Next</button>
+      <img src={imgSrc} alt="Example" />
     </div>
   );
 }
