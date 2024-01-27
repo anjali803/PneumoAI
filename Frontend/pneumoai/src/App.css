@@ -1,37 +1,96 @@
-body{
-  background-color: #135db5e8;
+* {
+  font-family: "Poppins", sans-serif !important;
 }
 
-
-h1{
-  margin: 30px 17px;
-  font-size: 140px;
+body {
+  background: linear-gradient(256deg, #5e2ab2 2.64%, #161e6c 140.46%);
   color: white;
-  text-shadow: 2px 7px 6px black;
-    
+  height: fit-content;
+}
+.bg {
+  width: 100%;
+  padding-bottom: 10rem;
+}
+.nav {
+  height: 80px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 60px;
+  font-size: 1.15rem;
+  position: fixed;
+  background: linear-gradient(256deg, #5e2ab2 2.64%, #161e6c 140.46%);
 }
 
-div.heading{
+.login{
+  font-size: 25px;
+    position: absolute;
+    right: 150px;
+}
+
+.signup{
   position: absolute;
-  right: 37px;
-  top: -50px;
+    right: 48px;
+    font-size: 25px;
 }
 
-button{
-  position: absolute;
-  right: 23px;
-  top: 145px;
-  border: 2px solid black;
-  padding: 9px 47px;
-  margin: 14px 37px;
-  border-radius: 16px;
-  background-color: #84aae7;
-  box-shadow: 2px 3px 8px;
-  font-size: 24px;
-  font-weight: bold;
+h4{
+  font-weight: 800;
+  font-size: 48px;
+  text-shadow: 3px 4px 11px black;
 }
 
-img{
-  width: 729px;
-    margin: 112px 220px;
+/* span{
+  align-items: center;
+  display: flex;
+  border: 2px dashed;
+  margin: 20px 208px;
+  justify-content: center;
+  height: 241px;
 }
+
+.span-text{
+  font-size: 45px;
+}
+
+p{
+  text-align: center;
+} */
+
+
+.image-upload-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.image-upload-box {
+  border: 2px dashed #ddd; /* Dashed border */
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 101px 20px;
+}
+
+.image-upload-box img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+input[type="file"] {
+  display: none; /* Hide the file input */
+}
+
+/* Style the file input label */
+.image-upload-box p {
+  margin: 0;
+  font-size: 16px;
+}
+
