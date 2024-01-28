@@ -65,7 +65,7 @@ input,
 textarea {
     user-select: none;
   outline-color: transparent;
-  border: 0;
+  border: 0; 
 }
 
 /* revert the 'white-space' property for textarea elements on Safari */
