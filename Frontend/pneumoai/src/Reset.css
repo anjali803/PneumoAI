@@ -63,7 +63,7 @@ svg {
 /* Safari - solving issue when using user-select:none on the <body> text input doesn't working */
 input,
 textarea {
-  -webkit-user-select: auto;
+    user-select: none;
   outline-color: transparent;
   border: 0;
 }
