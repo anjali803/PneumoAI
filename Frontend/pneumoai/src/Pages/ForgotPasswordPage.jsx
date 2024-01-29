@@ -12,6 +12,7 @@ const ForgotPasswordPage = () => {
       <div>
         <form>
           <input
+            className="email-input"
             type="email"
             id="email"
             name="email"

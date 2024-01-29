@@ -278,7 +278,7 @@ form{
     align-items: center;
     justify-content: center;
 }
-input{
+.email-input{
   width: 39%;
   padding: 10px;
   margin: 10px 10px;
