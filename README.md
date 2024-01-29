@@ -1,5 +1,8 @@
 # PneumoAI 
 
+## Hosted Link
+<a href="https://pneumo-ai-olcn.vercel.app/">PneumoAI</a>
+
 ## Abstract
 Pneumonia, a widespread and potentially life-threatening respiratory infection, remains a significant global health concern. Timely and accurate diagnosis is crucial for effective treatment and improved patient outcomes. This project focuses on developing an innovative solution for pneumonia detection by harnessing the power of machine learning and medical imaging. State-of-the-art deep learning algorithms will be employed to analyze chest X-ray images, forming a comprehensive dataset for training and validating our models. This initiative represents a fusion of cutting-edge technology and critical healthcare needs, aiming to contribute to early detection and enhanced management of pneumonia, ultimately saving lives and reducing the burden on healthcare systems.
 
@@ -121,5 +124,3 @@ Analyzed through:
 ## Conclusion
 This project signifies a fusion of cutting-edge technology and healthcare needs, offering the potential to save lives. The successful completion underscores the transformative power of machine learning and medical imaging in healthcare, opening doors to further advancements and applications in the future.
 
-## Hosted Link
-<a href="https://pneumo-ai-olcn.vercel.app/">PneumoAI</a>
