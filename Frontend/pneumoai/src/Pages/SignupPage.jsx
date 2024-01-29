@@ -43,7 +43,7 @@ function SignupPage() {
         <div className="create-account-div">
           <p>Already member? </p>
           <Link to="/LoginPage" className="create-account-text">
-            Log in
+            Login
           </Link>
         </div>
       </div>

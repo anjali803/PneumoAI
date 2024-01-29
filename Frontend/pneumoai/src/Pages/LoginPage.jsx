@@ -41,7 +41,7 @@ function LoginPage() {
 
         <div className="create-account-div">
           <p>Don't have an account?</p>
-          <Link to="/SignInPage" className="create-account-text">
+          <Link to="/SignupPage" className="create-account-text">
             create an account
           </Link>
         </div>
