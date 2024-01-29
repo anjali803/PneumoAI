@@ -253,3 +253,54 @@ background-color: #2828f1;
 .google-icon-button svg{
   margin: -3px 5px;
 }
+
+/* ForgotPasswordPage */
+.forgotPassword-container{
+  
+    max-width: 50%;
+    margin: 160px auto;
+}
+
+.reset-your-password-text{
+  text-align: center;
+  margin-top: 10px;
+  font-size: 23px;
+  font-weight: 600;
+}
+
+.Enter-email-text{
+  text-align: center;
+    padding: 18px 8px;
+}
+
+form{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input{
+  width: 39%;
+  padding: 10px;
+  margin: 10px 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+
+.notbot-text{
+  text-align: center;
+
+}
+
+.send-button{
+  display: block;
+  width: 20%;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #130215;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 10px auto;
+}

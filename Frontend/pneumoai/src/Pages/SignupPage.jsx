@@ -38,7 +38,7 @@ function SignupPage() {
           </div>
         </form>
 
-        <button className="login-button">Login</button>
+        <button className="login-button">Signup</button>
 
         <div className="create-account-div">
           <p>Already member? </p>
