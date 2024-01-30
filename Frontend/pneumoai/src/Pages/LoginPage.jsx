@@ -6,7 +6,7 @@ function LoginPage() {
     <>
       <div className="login-container">
         <h1 className="PneumoAI-text">PneumoAI</h1>
-        <p className="login-text">Login to your account</p>
+        <p className="semi-bold-text">Login to your account</p>
         <div className="button">
           <button className="facebook-icon-button">
             <FaFacebook /> Facebook
@@ -37,7 +37,9 @@ function LoginPage() {
           </Link>
         </div>
 
-        <button className="login-button">Login</button>
+        <Link to="/UserPage">
+          <button className="login-button">Log in</button>
+        </Link>
 
         <div className="create-account-div">
           <p>Don't have an account?</p>

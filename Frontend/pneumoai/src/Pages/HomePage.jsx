@@ -1,8 +1,7 @@
-
-import React, { useState } from 'react';
-import '../App.css';
-import { MdCloudUpload, MdDelete } from 'react-icons/md';
-import { AiFillFileImage } from 'react-icons/ai';
+import React, { useState } from "react";
+import "../App.css";
+import { MdCloudUpload, MdDelete } from "react-icons/md";
+import { AiFillFileImage } from "react-icons/ai";
 
 const HomePage = () => {
   const [selectedFile, setSelectedFile] = useState(null);
@@ -26,7 +25,7 @@ const HomePage = () => {
   };
 
   return (
-    <div className="container">
+    <div className="upload-container">
       <main>
         <form>
           <label htmlFor="imageUpload" className="upload-label">

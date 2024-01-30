@@ -5,6 +5,9 @@ import LoginPage from "./Pages/LoginPage";
 import SignupPage from "./Pages/SignupPage";
 import Navbar from "./Components/Navbar";
 import ForgotPasswordPage from "./Pages/ForgotPasswordPage";
+import RegisteredPage from "./Pages/RegisteredPage";
+import UserPage from "./Pages/UserPage";
+import RegisteredUserPage from "./Pages/RegisteredUserPage";
 
 function App() {
   return (
@@ -18,6 +21,12 @@ function App() {
           <Route
             path="/ForgotPasswordPage"
             element={<ForgotPasswordPage />}
+          ></Route>
+          <Route path="/RegisteredPage" element={<RegisteredPage />}></Route>
+          <Route path="/UserPage" element={<UserPage />}></Route>
+          <Route
+            path="/RegisteredUserPage"
+            element={<RegisteredUserPage />}
           ></Route>
         </Routes>
       </BrowserRouter>

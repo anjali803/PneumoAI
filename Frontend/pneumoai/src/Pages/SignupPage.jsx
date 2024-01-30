@@ -6,7 +6,7 @@ function SignupPage() {
     <>
       <div className="login-container">
         <h1 className="PneumoAI-text">PneumoAI</h1>
-        <p className="login-text">Create new account</p>
+        <p className="semi-bold-text">Create new account</p>
         <div className="button">
           <button className="facebook-icon-button">
             <FaFacebook /> Facebook
@@ -37,8 +37,9 @@ function SignupPage() {
             ></input>
           </div>
         </form>
-
-        <button className="login-button">Signup</button>
+        <Link to="/RegisteredPage">
+          <button className="login-button">Signup</button>
+        </Link>
 
         <div className="create-account-div">
           <p>Already member? </p>

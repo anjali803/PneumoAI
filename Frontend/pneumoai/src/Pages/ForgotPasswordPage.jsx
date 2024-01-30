@@ -3,7 +3,7 @@ const ForgotPasswordPage = () => {
   return (
     <div className="forgotPassword-container">
       <h1 className="PneumoAI-text">PneumoAI</h1>
-      <p className="reset-your-password-text">Reset your password</p>
+      <p className="semi-bold-text">Reset your password</p>
       {/* <p className="Enter-email-text">
         Enter your email and check your inbox for instructions. Please alsocheck
         your spam folder
@@ -20,7 +20,7 @@ const ForgotPasswordPage = () => {
           ></input>
         </form>
       </div>
-      <p className="notbot-text">Please confirm that you are not a bot.</p>
+      <p>Please confirm that you are not a bot.</p>
       <button className="send-button">Send</button>
       <div className="create-account-div">
         <p>Already member? </p>
