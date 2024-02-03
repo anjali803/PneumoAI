@@ -4,8 +4,10 @@ const ForgotPasswordPage = () => {
   return (
     <>
       <Navbar />
-      <div className="forgotPassword-container">
+      <div>
         <h1 className="PneumoAI-text">PneumoAI</h1>
+      </div>
+      <div className="container">
         <p className="semi-bold-text">Reset your password</p>
         {/* <p className="Enter-email-text">
         Enter your email and check your inbox for instructions. Please alsocheck

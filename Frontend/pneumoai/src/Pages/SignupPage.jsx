@@ -1,18 +1,35 @@
 import { FcGoogle } from "react-icons/fc";
 import { Link } from "react-router-dom";
 import Navbar from "../Components/Navbar";
+import { GoogleLogin } from "@react-oauth/google";
+import { jwtDecode } from "jwt-decode";
 
 function SignupPage() {
   return (
     <>
       <Navbar />
-      <div className="login-container">
+      <div>
         <h1 className="PneumoAI-text">PneumoAI</h1>
+      </div>
+
+      <div className="login-container">
         <p className="semi-bold-text">Create new account</p>
         <div className="button">
-          <button className="google-icon-button">
+          <GoogleLogin
+            onSuccess={(credentialResponse) => {
+              const credentialResponseDecoded = jwtDecode(
+                credentialResponse.credential
+              );
+              console.log(credentialResponseDecoded);
+            }}
+            onError={() => {
+              console.log("Login Failed");
+            }}
+          />
+
+          {/* <button className="google-icon-button">
             <FcGoogle /> Sign up with google
-          </button>
+          </button> */}
         </div>
         <form>
           <div>

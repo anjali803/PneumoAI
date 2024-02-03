@@ -3,12 +3,10 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import HomePage from "./Pages/HomePage";
 import LoginPage from "./Pages/LoginPage";
 import SignupPage from "./Pages/SignupPage";
-import Navbar from "./Components/Navbar";
 import ForgotPasswordPage from "./Pages/ForgotPasswordPage";
 import RegisteredPage from "./Pages/RegisteredPage";
 import UserPage from "./Pages/UserPage";
 import RegisteredUserPage from "./Pages/RegisteredUserPage";
-import UserNavbar from "./Components/UserNavbar";
 
 function App() {
   return (

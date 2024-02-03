@@ -1,19 +1,33 @@
-import { FcGoogle } from "react-icons/fc";
+// Your React Component (JSX)
+import React from "react";
 import { Link } from "react-router-dom";
+import { GoogleLogin } from "@react-oauth/google";
+import "../App.css";
 import Navbar from "../Components/Navbar";
 
-function LoginPage() {
+const LoginPage = () => {
   return (
     <>
       <Navbar />
-      <div className="login-container">
+      <div>
         <h1 className="PneumoAI-text">PneumoAI</h1>
+      </div>
+      <div className="login-container">
         <p className="semi-bold-text">Login to your account</p>
         <div className="button">
-          <button className="google-icon-button">
-            <FcGoogle /> Login with google
-          </button>
+          <GoogleLogin
+            onSuccess={(credentialResponse) => {
+              const credentialResponseDecoded = jwtDecode(
+                credentialResponse.credential
+              );
+              console.log(credentialResponseDecoded);
+            }}
+            onError={() => {
+              console.log("Login Failed");
+            }}
+          />
         </div>
+
         <form>
           <div>
             <input
@@ -35,11 +49,9 @@ function LoginPage() {
             Forgot your password?
           </Link>
         </div>
-
         <Link to="/UserPage">
           <button className="login-button">Log in</button>
         </Link>
-
         <div className="create-account-div">
           <p>Don't have an account?</p>
           <Link to="/SignupPage" className="create-account-text">
@@ -49,6 +61,6 @@ function LoginPage() {
       </div>
     </>
   );
-}
+};
 
 export default LoginPage;
