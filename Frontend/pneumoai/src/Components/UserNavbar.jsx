@@ -1,5 +1,6 @@
 import { NavLink } from "react-router-dom";
 import "../App.css";
+import { HiMiniUser } from "react-icons/hi2";
 
 const Navbar = () => {
   return (
@@ -12,10 +13,9 @@ const Navbar = () => {
           <nav>
             <ul>
               <li>
-                <NavLink to="/SignupPage">SignUp</NavLink>
-              </li>
-              <li>
-                <NavLink to="/LoginPage">LogIn</NavLink>
+                <NavLink to="/RegisteredUserPage">
+                  <HiMiniUser />
+                </NavLink>
               </li>
             </ul>
           </nav>

@@ -1,18 +1,17 @@
-import { FaFacebook, FaGoogle } from "react-icons/fa";
+import { FcGoogle } from "react-icons/fc";
 import { Link } from "react-router-dom";
+import Navbar from "../Components/Navbar";
 
 function SignupPage() {
   return (
     <>
+      <Navbar />
       <div className="login-container">
         <h1 className="PneumoAI-text">PneumoAI</h1>
         <p className="semi-bold-text">Create new account</p>
         <div className="button">
-          <button className="facebook-icon-button">
-            <FaFacebook /> Facebook
-          </button>
           <button className="google-icon-button">
-            <FaGoogle /> Google
+            <FcGoogle /> Sign up with google
           </button>
         </div>
         <form>

@@ -1,3 +1,5 @@
 body{
-  background: #f0eded;
+  background-image: url('./assests/img2.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
 }  

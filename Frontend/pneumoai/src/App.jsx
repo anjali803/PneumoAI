@@ -8,12 +8,12 @@ import ForgotPasswordPage from "./Pages/ForgotPasswordPage";
 import RegisteredPage from "./Pages/RegisteredPage";
 import UserPage from "./Pages/UserPage";
 import RegisteredUserPage from "./Pages/RegisteredUserPage";
+import UserNavbar from "./Components/UserNavbar";
 
 function App() {
   return (
     <>
       <BrowserRouter>
-        <Navbar />
         <Routes>
           <Route path="/" element={<HomePage />}></Route>
           <Route path="/LoginPage" element={<LoginPage />}></Route>

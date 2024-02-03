@@ -1,26 +1,13 @@
-import HomePage from "./HomePage";
-import { NavLink } from "react-router-dom";
+import UploadImage from "./UploadImage";
 import React from "react";
+import UserNavbar from "../Components/UserNavbar";
 
 const UserPage = () => {
   return (
-    <div className="user-container">
-      <HomePage />
-      <header>
-        <div className="nav-container">
-          <div className="logo">
-            <NavLink to="/">PneumoAI</NavLink>
-          </div>
-          <nav>
-            <ul>
-              <li>
-                <NavLink to="/RegisteredUserPage">icon</NavLink>
-              </li>
-            </ul>
-          </nav>
-        </div>
-      </header>
-    </div>
+    <>
+      <UserNavbar />
+      <UploadImage />
+    </>
   );
 };
 export default UserPage;
