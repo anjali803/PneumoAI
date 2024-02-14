@@ -1,89 +1,49 @@
 /* Navbar  */
 
 /* Reset some default styles */
-body, h1, h2, h3, p, ul, li {
-    margin: 0;
-    padding: 0;
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+    background-image: url('./assests/0_4.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
   }
+  
   
   /* Apply styles to the header and navigation container */
   header {
-    background-color: #026c81;
+    background-color: #000000;
     color: #fff;
-    position: fixed;
-    top: 0;
+  
     width: 100%;
-    box-shadow: 0px 1px 8px #1b8598;
-    height: 70px;
+    
+    height: 94px;
 }
   
-  .nav-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-  
-  /* Apply styles to the logo */
-  .logo {
-    font-size: 1.5rem;
-  }
-  
-  .logo a {
-    font-size: 2rem;
-    text-decoration: none;
-    color: #fff; 
-    font-weight: 600;
-  }
-  
-  /* Apply styles to the navigation menu */
-  nav ul {
-    list-style: none;
-    display: flex;
-    margin: 0px -133px;
-  }
-  
-  nav ul li {
-    padding: 8px 0px;
-    margin: 21px 10px;
-    border: 1px solid black;
-    background: #50a2b4;
-    border-radius: 11px;
-  }
-
-   nav ul li:hover{
-    background-color: #1b8598;
-   }
-  /* Apply styles to NavLink */
-  nav ul li a {
-    text-decoration: none;
-    color: #fff;
-    /* font-weight: bold; */
-    transition: color 0.3s ease;
-    font-size: 17px;
-    padding: 1px 20px;
-  }
-  
-  /* Change color on hover */
-  nav ul li a:hover {
-    color: #ecf0f1; 
-  }
+h1{
+  text-align: center;
+    font-size: 78px;
+    text-shadow: 1px 1px 7px #e0cece;
+}
+ 
   
 
 /* HomePage */
 
 
 .upload-container {
-    max-width: 50%;
-    border: 2px dashed black;
-    padding: 16px;
-    margin: 204px auto;
-    height: 300px;
+  max-width: 50%;
+    margin: 100px auto;
+    height: 390px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    backdrop-filter: blur(3px);
+    color: white;
   }
   
   .upload-label {
@@ -91,7 +51,8 @@ body, h1, h2, h3, p, ul, li {
     align-items: center;
     cursor: pointer;
     justify-content: center;
-    font-size: 30px;
+    font-size: 50px;
+    font-weight: 600;
 
   }
   
@@ -115,212 +76,36 @@ body, h1, h2, h3, p, ul, li {
   }
   
   .delete-icon {
-    cursor: pointer;
-    color: #e74c3c; /* Red color for delete icon */
+     cursor: pointer;
+    color: #e8d8d8;
+    font-size: 30px;
   }
   
   .image-preview {
-    margin-top: 16px;
+    margin: 9px auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 10rem;
+    width: 15rem;
   }
   
   .image-preview img {
     max-width: 100%;
     max-height: 100%;
   }
-
-
-
-
-/* LoginPage */
-.login-container {
-  max-width: 376px;
-  margin: -183px auto;
-  padding: 20px;
-  border: 0px solid;
-  background: #81d6e77d;
-  backdrop-filter: blur(1px);
-  box-shadow: 1px 1px 10px #9dcdcd;
-  border-radius: 18px;
-  z-index: 1;
-
-}
-
-
-
-.PneumoAI-text {
-  text-align: center;
-    font-size: 100px;
-    text-shadow: 2px 5px 3px #513737;
-    color: #ededed;
-    font-weight: 900;
-    /* border: 2px solid; */
-    margin: 180px auto;
-    max-width: 500px;
   
-}
 
-input {
-  width: 92%;
-  padding: 10px;
-  margin: 6px 6px;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-}
-
-.semi-bold-text{
-  text-align: center;
-  margin-top: 10px;
-  font-size: 23px;
-  font-weight: 600;
-}
-.password-text {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: black;
-}
-
-
-
-
-.google-icon-button{
-  display: block;
-  width: 100%;
-  padding: 4px;
-  margin: 3px;
-  border: 1px solid black;
-  border-radius: 7px;
+.upload-button{
+  padding: 13px 20px;
+  margin: 10px 90px;
+  border: 1px solid #fffbfb;
+  background: #202021;
+  border-radius: 15px;
+  font-size: 18px;
+  color: white;
   cursor: pointer;
-  font-size: 17px;
-  height: 42px;
-  color: black;
-  background: #f9f8f8;
-}
-.google-icon-button:hover{
-  background-color: #ddd;
 }
 
-
-
-
-
-.button {
-  width: 145px;
-  margin: 2px 96px;
-  
-}
-
-  
-button{
-  display: block;
-  width: 20%;
-  padding: 10px;
-  margin-bottom: 10px;
-  background-color: #130215;
-  color: #fff;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  margin: 7px auto;
-  
-  
-}
-
-.create-account-div{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 10px;
-}
-
-.create-account-text{
-  color: black;
-    margin: 0px 5px;
-}
-
-.facebook-icon-button svg{
-  margin: -3px 5px;
- }
-
-.google-icon-button svg{
-  margin: -3px 5px;
-}
-
-p{
-  text-align: center;
-  margin: 7px;
-}
-
-/* ForgotPasswordPage */
-.forgotPassword-container{
-  max-width: 50%;
-  margin: 236px auto;
-}
-
-
-
-.Enter-email-text{
-  text-align: center;
-    padding: 18px 8px;
-}
-
-form{
-  display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.email-input{
-  width: 100%;
-  padding: 10px;
-  margin: 10px 10px;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-}
-
-
-
-.send-button{
-  display: block;
-  width: 20%;
-  padding: 10px;
-  margin-bottom: 10px;
-  background-color: #130215;
-  color: #fff;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  margin: 10px auto;
-}
-
-/* Registered page */
-img{
-  margin: 4px 124px;
-}
-
-.Registered-button{
-  display: block;
-  width: 50%;
-  padding: 12px;
-  margin-bottom: 10px;
-  background-color: #130215;
-  color: #fff;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  margin: auto;
-}
-
-a{
-  text-decoration: none;
-}
-
-
-.container{
-  max-width: 370px;
-    margin: -221px auto;
-    padding: 20px;
+.upload-button:hover{
+  background-color: black;
 }
